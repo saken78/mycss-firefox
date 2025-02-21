@@ -1,0 +1,59 @@
+:root,
+html,
+body {
+  /* Warna utama */
+  --md-sys-color-primary: #4B4973; /* Ungu gelap */
+  --md-sys-color-surface-tint: #3A3653; /* Ungu lebih gelap */
+  --md-sys-color-on-primary: #E0E0E0;
+  --md-sys-color-primary-container: #3A3653;
+  --md-sys-color-on-primary-container: #EAEAEA;
+  /* Warna sekunder */
+  --md-sys-color-secondary: #3B4252; /* Changed from pink to Nord dark */
+  --md-sys-color-on-secondary: #E0E0E0;
+  --md-sys-color-secondary-container: #3A3653;
+  --md-sys-color-on-secondary-container: #EAEAEA;
+  /* Warna aksen dan error */
+  --md-sys-color-tertiary: #3B4252; /* Changed from pink to Nord dark */
+  --md-sys-color-on-tertiary: #E0E0E0;
+  --md-sys-color-tertiary-container: #3A3653;
+  --md-sys-color-on-tertiary-container: #EAEAEA;
+  --md-sys-color-error: #3B4252; /* Changed from pink to Nord dark */
+  --md-sys-color-on-error: #1D2026;
+  --md-sys-color-error-container: #3A3653;
+  --md-sys-color-on-error-container: #EAEAEA;
+  /* Background */
+  --md-sys-color-background: #1D2026; /* Gelap banget */
+  --md-sys-color-on-background: #EAEAEA;
+  --md-sys-color-surface: #3A3653;
+  --md-sys-color-on-surface: #EAEAEA;
+  /* Tab & menu */
+  --md-accent-color: #3B4252; /* Changed from pink to Nord dark */
+  --md-background-color-0: #1D2026;
+  --md-background-color-50: #3A3653;
+  --md-background-color-100: #222330;
+  --md-tab-background-color: var(--md-sys-color-primary);
+  --md-menu-background-color: var(--md-sys-color-primary);
+  --md-tab-background-color-hover: var(--md-sys-color-primary);
+  --md-menu-background-color-hover: var(--md-sys-color-primary);
+  --md-menu-border-color: #3A3653;
+  --md-selection-text-color: var(--md-black);
+  --md-selection-background-color: #3B4252; /* Changed from pink to Nord dark */
+  /* Font rendering */
+  --md-font-family: "JetBrains Mono NL", monospace;
+  --md-font-size: 14px;
+  --md-font-weight: 500;
+}
+* {
+  font-family: "JetBrains Mono NL", monospace !important;
+  font-size: 14px !important;
+  font-weight: 500;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+/* Perbaikan ukuran font di menu, tab, dan search */
+.md-tab,
+.md-menu-item,
+.md-search-input {
+  font-size: 14px !important; /* Mengurangi ukuran font menjadi 14px */
+}
